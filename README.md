@@ -29,9 +29,24 @@ Este README resume lo que hay en la carpeta `JURISIN 2026` (root del repo local)
 
 ### Archivos en la raiz de `Version 2`
 - `.gitconfig`: preferencias de git solo para esta carpeta (se ignora en otros equipos).
-- `results.ipynb`: notebook maestro con celdas para reproducir plots, sumarizar metricas y exportar tablas en la nueva version.
+- `results.ipynb`: notebook maestro con celdas para sumarizar metricas y exportar tablas en la nueva version.
+- `paper_figures/`: hub central de figuras camera-ready y notebooks de produccion para el paper.
 
 ### Subcarpetas y archivos
+
+#### `paper_figures/`
+- `notebooks/`: notebooks finales usados para generar figuras listas para paper.
+  - `paper_scatter_plots.ipynb`
+  - `paper_kde_plots.ipynb`
+  - `paper_confmat_mel2.ipynb`
+  - `paper_complexity_quadrants.ipynb`
+  - `paper_complexity_boxplots.ipynb`
+  - `paper_class_distribution.ipynb`
+- `scatter/`: exports del bloque scatter UMAP (individuales, panel y `paper_scatter_export_log.csv`) en PNG/SVG/PDF.
+- `kde/`: exports KDE UMAP por indicador (variantes `with_title` y `without_title`) + log CSV en PNG/SVG/PDF.
+- `confmat_mel2/`: matrices de confusion MEL2 por indicador + panel 5 indicadores + log CSV en PNG/SVG/PDF.
+- `complexity/`: figuras de complejidad/riesgo (opcion dual-panel, opcion hexbin, paneles separados, boxplots por indicador y metadatos) en PNG/SVG/PDF.
+- `distribution/`: grafico `paper_distribution_articles_by_class` + archivos auxiliares (`__counts.csv`, `__metadata.csv`) en PNG/SVG/PDF.
 
 #### `complexity/`
 - `boxplot_complexity_active__all_categories.png`: boxplot que combina todas las dimensiones activas del indice.
