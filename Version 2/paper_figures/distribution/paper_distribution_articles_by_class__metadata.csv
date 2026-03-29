@@ -1,0 +1,2 @@
+data_file,rows_input,indicators,class_values,export_stem
+C:\Users\57305\OneDrive - Universidad Nacional de Colombia\Documentos\GitHub\JURISIN_2026\JURISIN-2026\Version 2\outputs\base_with_risk_score_and_perturbations.csv,169,Relevance; Interpretation; Completeness; Differential Regime; Discretion,0; 1; 2; 3,paper_distribution_articles_by_class

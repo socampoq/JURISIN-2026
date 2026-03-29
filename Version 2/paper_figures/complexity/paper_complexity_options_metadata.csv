@@ -1,0 +1,2 @@
+complexity_dir,sensitivity_file,rows_used,rows_total_risk,drop_missing_complexity,complexity_median,risk_median,option1_stem,option2_stem
+C:\Users\57305\OneDrive - Universidad Nacional de Colombia\Documentos\GitHub\JURISIN_2026\JURISIN-2026\Version 2\complexity,C:\Users\57305\OneDrive - Universidad Nacional de Colombia\Documentos\GitHub\JURISIN_2026\JURISIN-2026\Version 2\sensitivity\base_with_risk_score_and_perturbations.csv,148,169,True,0.1098418769010556,3.0,paper_complexity_risk_option1_dual_panel,paper_complexity_risk_option2_hexbin
